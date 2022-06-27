@@ -15,7 +15,7 @@ readFile('./content/first.txt','utf8', (err,result) =>{
         }
         const second = result
         writeFile(
-        './content/result-asynct.txt',
+        './content/result-async.txt',
         `Here is the result: ${first}, ${second}`, {flag:'a'},
         (err,result) =>{
             if(err){
